@@ -1,17 +1,13 @@
 <resources>
-    <string name="app_name">Aicy Redirection</string>
-    <string name="title_activity_settings">Aicy Redirection</string>
+    <string name="app_name">Aicy Redirect</string>
 
     <!-- Preference Titles -->
     <string name="settings_active_header">Пробуждение</string>
 
-    <!-- Sync Preferences -->
+    <!-- Redirect Preferences -->
     <string name="active_title">Кнопка включения питания</string>
     <string name="active_description">Нажмите и держите 0.5 секунды, чтобы активировать, 3 секунды, чтобы выключить</string>
 
-    <string name="sync_title">Sync email periodically</string>
-    <string name="attachment_title">Download incoming attachments</string>
-    <string name="attachment_summary_on">Automatically download attachments for incoming emails
-    </string>
-    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="redirect_package">Имя вызываемого пакета:</string>
+    <string name="redirect_class">Исполняемый класс:</string>
 </resources>
