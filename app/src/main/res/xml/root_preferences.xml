@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/settings_active_header">
+
+        <SwitchPreferenceCompat
+            app:iconSpaceReserved="false"
+            app:key="active_title"
+            app:summary="@string/active_description"
+            app:title="@string/active_title" />
+
+<!--        <SwitchPreferenceCompat-->
+<!--            app:dependency="active_title"-->
+<!--            app:iconSpaceReserved="false"-->
+<!--            app:key="attachment"-->
+<!--            app:summaryOff="@string/attachment_summary_off"-->
+<!--            app:summaryOn="@string/attachment_summary_on"-->
+<!--            app:title="@string/attachment_title" />-->
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

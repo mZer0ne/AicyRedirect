@@ -1,16 +1,14 @@
 <resources>
-    <string name="app_name">Voice Assistant</string>
-    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="app_name">Aicy Redirection</string>
+    <string name="title_activity_settings">Aicy Redirection</string>
 
     <!-- Preference Titles -->
-    <string name="messages_header">Messages</string>
-    <string name="sync_header">Sync</string>
-
-    <!-- Messages Preferences -->
-    <string name="signature_title">Your signature</string>
-    <string name="reply_title">Default reply action</string>
+    <string name="settings_active_header">Пробуждение</string>
 
     <!-- Sync Preferences -->
+    <string name="active_title">Кнопка включения питания</string>
+    <string name="active_description">Нажмите и держите 0.5 секунды, чтобы активировать, 3 секунды, чтобы выключить</string>
+
     <string name="sync_title">Sync email periodically</string>
     <string name="attachment_title">Download incoming attachments</string>
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
