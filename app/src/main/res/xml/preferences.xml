@@ -4,7 +4,7 @@
         app:iconSpaceReserved="false"
         app:title="@string/settings_active_header">
 
-        <SwitchPreferenceCompat
+        <SwitchPreference
             app:iconSpaceReserved="false"
             app:key="active_title"
             app:summary="@string/active_description"
