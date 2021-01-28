@@ -77,8 +77,7 @@ public class smartapp extends AppCompatActivity {
             if (p instanceof SwitchPreference) {
                 SwitchPreference switchPref = (SwitchPreference) p;
 
-//                Settings.System.putInt(null, "power_long_press_voice", (int) (switchPref.isChecked() ? 1 : 0));
-                System.out.println("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa running: " + switchPref.isChecked());
+                Settings.System.putInt(getContext().getContentResolver(), "power_long_press_voice", (int) (switchPref.isChecked() ? 1 : 0));
             }
         }
     }
